@@ -9,11 +9,11 @@ public class IntegerSet {
     private ArrayList<Integer> Integer = new ArrayList<>();
 
     // Rep Invariant (RI):
-    //  - s must not contain duplicate integers.
-    //  - The integers in s must be sorted in ascending order.
+    //  - must not contain duplicate integers.
+    //  - The integers must be sorted in ascending order.
     //
     // Abstraction Function (AF):
-    //  - AF(s) = the set of integers in the arrayList Integer.
+    //  - AF(Integer) = the set of integers in the arrayList Integer.
 
     public IntegerSet() {
         Integer = new ArrayList<>();
